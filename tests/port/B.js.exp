@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -2,9 +2,9 @@
+   @param {number} x
+   @return {number}
+  */
+-function square(x) {
++function square(x: number) : number {
+   
+  /** 
+    @type {number} 
+  */
+   var y = x*x;
+   return y;
